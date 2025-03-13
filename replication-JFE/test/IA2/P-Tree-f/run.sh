@@ -1,0 +1,1 @@
+Rscript B_main_ins_oos_reverse.R > log.txt 2>&1

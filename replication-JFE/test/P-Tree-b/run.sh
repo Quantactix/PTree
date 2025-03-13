@@ -1,0 +1,1 @@
+Rscript main_ins_oos.R > log.txt 2>&1

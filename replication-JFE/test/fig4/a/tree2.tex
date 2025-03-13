@@ -1,0 +1,59 @@
+
+%start python generated 
+\node [env] {N1  S1\\ SUE $\leq$ -0.2 } 
+      child { node [env] {N2  S3 \\ DOLVOL $\leq$ -0.6} 
+            child { node [env] {N4  S6 \\ ZEROTRADE $\leq$ 0.6} 
+                  child { node [env] {N8   \\ \# 134 } 
+                        edge from parent node [left] {Y} 
+                  }
+                  child { node [env] {N9   \\ \# 210 } 
+                        edge from parent node [right] {N} 
+                  }
+                  edge from parent node [left] {Y} 
+            }
+            child { node [env] {N5  S7 \\ ME $\leq$ -0.2} 
+                  child { node [env] {N10  S8 \\ ZEROTRADE $\leq$ 0.2} 
+                        child { node [env] {N20   \\ \# 178 } 
+                              edge from parent node [left] {Y} 
+                        }
+                        child { node [env] {N21   \\ \# 227 } 
+                              edge from parent node [right] {N} 
+                        }
+                        edge from parent node [left] {Y} 
+                  }
+                  child { node [env] {N11   \\ \# 900 } 
+                        edge from parent node [right] {N} 
+                  }
+                  edge from parent node [right] {N} 
+            }
+            edge from parent node [left] {Y} 
+      }
+      child { node [env] {N3  S2 \\ DOLVOL $\leq$ -0.6} 
+            child { node [env] {N6  S4 \\ BM\_IA $\leq$ 0.2} 
+                  child { node [env] {N12   \\ \# 210 } 
+                        edge from parent node [left] {Y} 
+                  }
+                  child { node [env] {N13  S5 \\ ROA $\leq$ -0.2} 
+                        child { node [env] {N26   \\ \# 157 } 
+                              edge from parent node [left] {Y} 
+                        }
+                        child { node [env] {N27   \\ \# 112 } 
+                              edge from parent node [right] {N} 
+                        }
+                        edge from parent node [right] {N} 
+                  }
+                  edge from parent node [left] {Y} 
+            }
+            child { node [env] {N7  S9 \\ ME $\leq$ -0.2} 
+                  child { node [env] {N14   \\ \# 658 } 
+                        edge from parent node [left] {Y} 
+                  }
+                  child { node [env] {N15   \\ \# 1768 } 
+                        edge from parent node [right] {N} 
+                  }
+                  edge from parent node [right] {N} 
+            }
+            edge from parent node [right] {N} 
+      }
+
+%end python generated 
