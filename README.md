@@ -22,12 +22,15 @@ For windows users, install the package in R session:
 - Welcome to cite our paper for PTrees.
 - Working paper version: [Growing the Efficient Frontier on Panel Trees](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3949463)
 
-@article{cong2024growing,
-  title={Growing the efficient frontier on panel trees},
-  author={Cong, Lin William and Feng, Guanhao and He, Jingyu and He, Xin},
-  journal={Journal of Financial Economics, forthcoming},
-  year={2024}
-}
+
+@article{cong2025ptree,
+    title={Growing the efficient frontier on panel trees},
+    ​author={Cong, Lin William and Feng, Guanhao and He, Jingyu and He, Xin},
+    ​journal={Journal of Financial Economics, forthcoming},
+    ​year={2025},
+    Volume={167}
+​}
+
 
 
 # Contact 
