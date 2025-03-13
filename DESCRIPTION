@@ -1,0 +1,13 @@
+Package: PTree
+Type: Package
+Title: Growing the Efficient Frontier on Panel Trees
+Version: 1.0
+Date: 2023-12-07
+Author: Jingyu He
+Maintainer: Jingyu He <jingyuhe@cityu.edu.hk>
+Description: This package implement the PTree method to grow the efficient frontier for asset pricing.
+License: MIT
+Imports: Rcpp (>= 1.0.6)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.2.3
+Encoding: UTF-8

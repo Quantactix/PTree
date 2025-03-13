@@ -1,0 +1,8 @@
+useDynLib(PTree, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+S3method(predict,PTree)
+export(PTree)
+importFrom(Matrix,sparseMatrix)
+importFrom(Matrix,triu)
+importFrom(R6,R6Class)
+importFrom(methods,as)
