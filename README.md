@@ -20,7 +20,7 @@ For windows users, install the package in R session:
 # Reference
 
 - Welcome to cite our paper for PTrees.
-- Working paper version: [Growing the Efficient Frontier on Panel Trees](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3949463)
+- Open Access paper on JFE website: [Growing the Efficient Frontier on Panel Trees](https://doi.org/10.1016/j.jfineco.2025.104024)
 
 
 @article{cong2025ptree,
